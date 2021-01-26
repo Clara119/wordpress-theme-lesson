@@ -1,10 +1,10 @@
-<!-- ヘッダーの読み込み -->
 <?php get_header(); ?>
-<!-- サムネイルの表示 -->
-<?php the_post_thumbnail('large'); ?>
-<!-- ブログタイトルの表示 -->
-<h1><?php the_title(); ?></h1>
-<!-- 本文の表示 抜粋ではないよ -->
-<p><?php the_content(); ?></p>
-<!-- フッター読み込み -->
+<?php the_post(); ?>
+
+<div class="main-content">
+    <?php the_post_thumbnail('large'); ?>
+    <h1><?php the_title(); ?></h1>
+    <p><?php the_content(); ?></p>
+</div>
+
 <?php get_footer(); ?>

@@ -14,10 +14,8 @@ the_post();
         <h2>これは日報用のPHPです</h2>
         <p><<?php the_field('day'); ?>/p>
         <p><?php the_field('content'); ?></p>  
-    </div>
-   
+    </div>  
 </div>
-
 
 
 <?php get_footer(); ?>
