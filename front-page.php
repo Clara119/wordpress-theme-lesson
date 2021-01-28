@@ -94,6 +94,8 @@ echo "今日は".date("Y/m/d").$week[$w]."です";
 
         </section>
 
+        <a href="/daily" class="button daily__button">日報を見る</a>
+
 
 
 
